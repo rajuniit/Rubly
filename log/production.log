@@ -1,0 +1,549 @@
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:19:11 +0600
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:20:37 +0600
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:20:38 +0600
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:22:53 +0600
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:24:50 +0600
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:24:52 +0600
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-24 23:25:28 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 88ms (Views: 10.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/links/new" for 127.0.1.1 at 2011-07-24 23:25:32 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_form.html.erb (81.2ms)
+Rendered links/new.html.erb within layouts/application (84.8ms)
+Completed 200 OK in 91ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:50:56 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 149ms (Views: 48.4ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:51:56 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:51:57 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:51:58 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:51:58 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:52:13 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:53:07 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:53:08 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:54:09 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 65ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:55:21 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:55:55 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 20:59:50 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 12ms (Views: 5.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 21:07:09 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 21:07:10 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-28 21:07:19 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 13ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 10:48:18 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 132ms (Views: 12.7ms | ActiveRecord: 23.0ms)
+
+
+Started GET "/links/new" for 127.0.1.1 at 2011-07-29 10:48:45 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_form.html.erb (80.6ms)
+Rendered links/new.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 116ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 10:49:33 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_form.html.erb (10.2ms)
+Rendered links/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 22ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 10:59:34 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (58.5ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x0000000389e768>:0x00000003896ce8>):
+    2:     <%= render 'message' %>
+    3:     <div class="field">
+    4:       <label>Paste your Long Url Here</label><br/>
+    5:       <%= f.text_field :long_url %>
+    6:     </div>
+    7: 
+    8:     <div class="actions">
+  app/views/links/new.html.erb:5:in `block in _app_views_links_new_html_erb___1360238586963340615_29664700_2180147370781916232'
+  app/views/links/new.html.erb:1:in `_app_views_links_new_html_erb___1360238586963340615_29664700_2180147370781916232'
+  app/controllers/links_controller.rb:26:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 11:00:28 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 19ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 13:14:36 +0600
+  Processing by LinksController#new as HTML
+Completed 500 Internal Server Error in 42ms
+
+SyntaxError (/var/www/works/rubyprojects/rubly/app/models/link.rb:20: dynamic constant assignment
+       SLUG_LENGTH = 4;
+                    ^):
+  app/controllers/links_controller.rb:24:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 13:21:55 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.0ms)
+Rendered links/new.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 165ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:22:11 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 188ms (Views: 11.6ms | ActiveRecord: 21.3ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:25:19 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 56ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:25:25 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 28ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:27:21 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 60ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/models/link.rb:25:in `block in generate_slug'
+  app/models/link.rb:23:in `times'
+  app/models/link.rb:23:in `generate_slug'
+  app/models/link.rb:16:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:30:43 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/models/link.rb:24:in `block in generate_slug'
+  app/models/link.rb:23:in `times'
+  app/models/link.rb:23:in `generate_slug'
+  app/models/link.rb:16:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:34:40 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 5244ms
+
+SystemStackError (stack level too deep):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:35:33 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 27ms
+
+NameError (uninitialized constant Link::DOMAIN_NAME):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:36:16 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 20ms
+
+NameError (undefined local variable or method `root_url' for #<Link:0x00000004b6a770>):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 13:45:21 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 22ms (Views: 12.6ms | ActiveRecord: 1805.8ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:45:29 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UhZhJGoIxWWW0cvcqd5DZxo4e0O2Wg62yPpg7UfD34E=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 66ms
+
+NameError (uninitialized constant Link::BASE_URL):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:45:57 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UhZhJGoIxWWW0cvcqd5DZxo4e0O2Wg62yPpg7UfD34E=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 23ms
+
+NameError (uninitialized constant Link::BASE_URL):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:46:52 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UhZhJGoIxWWW0cvcqd5DZxo4e0O2Wg62yPpg7UfD34E=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 138ms
+
+NameError (uninitialized constant Link::BASE_URL):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:50:03 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UhZhJGoIxWWW0cvcqd5DZxo4e0O2Wg62yPpg7UfD34E=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 25ms
+
+NameError (undefined local variable or method `base_url' for #<Link:0x000000023b47f8>):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:51:28 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UhZhJGoIxWWW0cvcqd5DZxo4e0O2Wg62yPpg7UfD34E=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 25ms
+
+NameError (uninitialized constant Link::BASE_URL):
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:52:14 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UhZhJGoIxWWW0cvcqd5DZxo4e0O2Wg62yPpg7UfD34E=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 110ms
+
+TypeError (can't convert nil into String):
+  app/models/link.rb:17:in `+'
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:54:28 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 21ms
+
+TypeError (can't convert nil into String):
+  app/models/link.rb:17:in `+'
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:54:30 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 21ms
+
+TypeError (can't convert nil into String):
+  app/models/link.rb:17:in `+'
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:55:52 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Completed 500 Internal Server Error in 24ms
+
+TypeError (can't convert nil into String):
+  app/models/link.rb:17:in `+'
+  app/models/link.rb:17:in `generate_short_url'
+  app/controllers/links_controller.rb:37:in `block in create'
+  app/controllers/links_controller.rb:36:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 13:57:53 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Create Link"}
+Redirected to http://local.rubly.tld/links/1
+Completed 302 Found in 146ms
+
+
+Started GET "/links/1" for 127.0.1.1 at 2011-07-29 13:57:53 +0600
+  Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered links/show.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 73ms (Views: 62.8ms | ActiveRecord: 108.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 13:59:59 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 31ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tfJVl" for 127.0.1.1 at 2011-07-29 14:27:14 +0600
+  Processing by LinksController#render as HTML
+  Parameters: {"slug"=>"tfJVl"}
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `get_link_by_slug' for #<Class:0x00000002d7e400>):
+  app/controllers/links_controller.rb:49:in `render'
+
+
+
+Started GET "/tfJVl" for 127.0.1.1 at 2011-07-29 14:29:33 +0600
+  Processing by LinksController#render as HTML
+  Parameters: {"slug"=>"tfJVl"}
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `views' for #<Link:0x00000003bb2c38>):
+  app/models/link.rb:19:in `update_views'
+  app/controllers/links_controller.rb:56:in `block in render'
+  app/controllers/links_controller.rb:51:in `render'
+
+
+
+Started GET "/tfJVl" for 127.0.1.1 at 2011-07-29 14:30:25 +0600
+  Processing by LinksController#render as HTML
+  Parameters: {"slug"=>"tfJVl"}
+Completed 500 Internal Server Error in 11ms
+
+NoMethodError (undefined method `views' for #<Class:0x000000038f34c0>):
+  app/models/link.rb:19:in `update_views'
+  app/controllers/links_controller.rb:56:in `block in render'
+  app/controllers/links_controller.rb:51:in `render'
+
+
+
+Started GET "/tfJVl" for 127.0.1.1 at 2011-07-29 14:30:57 +0600
+  Processing by LinksController#render as HTML
+  Parameters: {"slug"=>"tfJVl"}
+Redirected to http://rajumazumder.com
+Completed 301 Moved Permanently in 202ms
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 14:32:22 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://www.dzone.com/links/r/the_really_simple_way_to_get_work_done.html"}, "commit"=>"Create Link"}
+Redirected to http://local.rubly.tld/links/2
+Completed 302 Found in 67ms
+
+
+Started GET "/links/2" for 127.0.1.1 at 2011-07-29 14:32:22 +0600
+  Processing by LinksController#show as HTML
+  Parameters: {"id"=>"2"}
+Redirected to 
+Completed 500 Internal Server Error in 16ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/links_controller.rb:53:in `block (2 levels) in render'
+  app/controllers/links_controller.rb:51:in `render'
+  app/controllers/links_controller.rb:16:in `show'
+
+
+
+Started GET "/links/2" for 127.0.1.1 at 2011-07-29 14:34:58 +0600
+  Processing by LinksController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered links/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 23ms (Views: 11.9ms | ActiveRecord: 132.9ms)
+
+
+Started GET "/VpvnP" for 127.0.1.1 at 2011-07-29 14:35:17 +0600
+  Processing by LinksController#render_link as HTML
+  Parameters: {"slug"=>"VpvnP"}
+Redirected to http://www.dzone.com/links/r/the_really_simple_way_to_get_work_done.html
+Completed 301 Moved Permanently in 108ms
+
+
+Started GET "/" for 127.0.1.1 at 2011-07-29 14:41:25 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 23ms (Views: 12.4ms | ActiveRecord: 42.4ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 14:41:31 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://www.dzone.com/links/r/the_really_simple_way_to_get_work_done.html"}, "commit"=>"Create Link"}
+Rendered links/_message.html.erb (4.1ms)
+Rendered links/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 43ms (Views: 15.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-07-29 14:41:48 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vyvvDOL5XjyaVxTr54VVwF5wItABFF80quEX9cU8fRY=", "link"=>{"long_url"=>"http://www.stylephp.com"}, "commit"=>"Create Link"}
+Redirected to http://local.rubly.tld/links/3
+Completed 302 Found in 69ms
+
+
+Started GET "/links/3" for 127.0.1.1 at 2011-07-29 14:41:48 +0600
+  Processing by LinksController#show as HTML
+  Parameters: {"id"=>"3"}
+Rendered links/show.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 22ms (Views: 11.1ms | ActiveRecord: 44.4ms)
+
+
+Started GET "/QXGpy" for 127.0.1.1 at 2011-07-29 14:42:11 +0600
+  Processing by LinksController#render_link as HTML
+  Parameters: {"slug"=>"QXGpy"}
+Redirected to http://www.stylephp.com
+Completed 301 Moved Permanently in 105ms

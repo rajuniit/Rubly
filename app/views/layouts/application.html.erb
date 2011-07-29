@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rubly</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag "jquery.min", "jquery-ui.min", "application" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<div id="container">
+
+	<div id="header">
+
+		<h1><a href="http://rubly.com" title="Rubly - Url Shortner">Rubly - Url Shortner</a></h1>
+
+		<ul id="nav">
+			<li><a href="http://easyframework.com">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Documentation</a></li>
+			<li><a href="#">API</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+	</div>
+
+	<div class="content">
+        <%= yield %>
+	</div>
+
+	<div id="footer">
+		<p></p>
+	</div>
+
+</div>
+
+</body>
+</html>

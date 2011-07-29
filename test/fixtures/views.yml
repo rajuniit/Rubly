@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  references: 
+  ip_address: MyString
+  browser: MyString
+  referer: MyString
+  platform: MyString
+  country: MyString
+
+two:
+  references: 
+  ip_address: MyString
+  browser: MyString
+  referer: MyString
+  platform: MyString
+  country: MyString

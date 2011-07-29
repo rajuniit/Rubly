@@ -1,0 +1,12 @@
+<%= form_for @link do |form| %>
+    <%= render 'message' %>
+    <div class="field">
+      <label>Paste your Long Url Here</label><br/>
+      <%= form.text_field :long_url %>
+    </div>
+
+    <div class="actions">
+      <%= form.submit %>
+    </div>
+
+<% end %>

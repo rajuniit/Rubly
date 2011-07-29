@@ -1,0 +1,137 @@
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (130.7ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (208.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724170005)
+  [1m[35mSQL (85.0ms)[0m  CREATE TABLE `links` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `long_url` varchar(255), `short_url` varchar(255), `ip_address` varchar(255), `total_click` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (40.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110724170005')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724170005)
+Migrating to CreateViews (20110724170830)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724170005)
+Migrating to CreateViews (20110724170830)
+  [1m[35mSQL (191.4ms)[0m  CREATE TABLE `views` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `link_id` int(11), `ip_address` varchar(255), `browser` varchar(255), `referer` varchar(255), `platform` varchar(255), `country` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (57.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110724170830')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `views`
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (149.2ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (242.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724171429)
+  [1m[35mSQL (109.3ms)[0m  CREATE TABLE `links` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `long_url` varchar(255), `short_url` varchar(255), `ip_address` varchar(255), `total_click` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (65.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110724171429')[0m
+Migrating to CreateViews (20110724171456)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724171429)
+Migrating to CreateViews (20110724171456)
+  [1m[35mSQL (187.1ms)[0m  CREATE TABLE `views` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `link_id` int(11), `ip_address` varchar(255), `browser` varchar(255), `referer` varchar(255), `platform` varchar(255), `country` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (56.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110724171456')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW KEYS FROM `views`
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724171429)
+Migrating to CreateViews (20110724171456)
+Migrating to AddTokenToLink (20110729054449)
+  [1m[35mSQL (242.7ms)[0m  ALTER TABLE `links` ADD `token` varchar(255)
+  [1m[36mSQL (81.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110729054449')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `views`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to AddTokenToLink (20110729054449)
+  [1m[35mSQL (313.8ms)[0m  ALTER TABLE `links` DROP `token`
+  [1m[36mAREL (56.9ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20110729054449'[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW KEYS FROM `views`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724171429)
+Migrating to CreateViews (20110724171456)
+Migrating to AddTokenToLink (20110729054449)
+  [1m[35mSQL (303.9ms)[0m  ALTER TABLE `links` ADD `token` varchar(255)
+  [1m[36mSQL (56.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110729054449')[0m
+Migrating to AddSlugToLink (20110729054827)
+  [1m[35mSQL (234.0ms)[0m  ALTER TABLE `links` ADD `slug` varchar(255)
+  [1m[36mSQL (65.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110729054827')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `views`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to AddSlugToLink (20110729054827)
+  [1m[35mSQL (326.5ms)[0m  ALTER TABLE `links` DROP `slug`
+  [1m[36mAREL (56.7ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20110729054827'[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `views`
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateLinks (20110724171429)
+Migrating to CreateViews (20110724171456)
+Migrating to AddSlugToLink (20110729054827)
+  [1m[35mSQL (355.1ms)[0m  ALTER TABLE `links` ADD `slug` varchar(255)
+  [1m[36mSQL (65.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20110729054827')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `links`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `links`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `views`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `views`

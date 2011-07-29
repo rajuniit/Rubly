@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  long_url: MyString
+  short_url: MyString
+  ip_address: MyString
+  total_click: 1
+
+two:
+  long_url: MyString
+  short_url: MyString
+  ip_address: MyString
+  total_click: 1

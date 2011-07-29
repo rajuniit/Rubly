@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<p>Here is your short url. Just copy and paste the url to share</p>
+<p>
+  <b>Shore url:</b>
+  <div class="selected">
+      <input type="text" readonly="" value="<%= @link.short_url %>" id="result">
+  </div>
+</p>
+
+<%= link_to 'Back', links_path %>

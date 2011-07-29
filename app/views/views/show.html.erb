@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>References:</b>
+  <%= @view.references %>
+</p>
+
+<p>
+  <b>Ip address:</b>
+  <%= @view.ip_address %>
+</p>
+
+<p>
+  <b>Browser:</b>
+  <%= @view.browser %>
+</p>
+
+<p>
+  <b>Referer:</b>
+  <%= @view.referer %>
+</p>
+
+<p>
+  <b>Platform:</b>
+  <%= @view.platform %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @view.country %>
+</p>
+
+
+<%= link_to 'Edit', edit_view_path(@view) %> |
+<%= link_to 'Back', views_path %>
