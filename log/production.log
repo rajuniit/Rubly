@@ -547,3 +547,2551 @@ Started GET "/QXGpy" for 127.0.1.1 at 2011-07-29 14:42:11 +0600
   Parameters: {"slug"=>"QXGpy"}
 Redirected to http://www.stylephp.com
 Completed 301 Moved Permanently in 105ms
+
+
+Started GET "/" for 127.0.1.1 at 2011-08-03 22:53:00 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.1ms)
+Rendered links/new.html.erb within layouts/application (84.2ms)
+Completed 200 OK in 167ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-08-05 00:16:13 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/new.html.erb within layouts/application (76.4ms)
+Completed 200 OK in 164ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-08-05 00:16:28 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"clteVl8S4Sl/MNuRCCceSg8baz2bwU4rgDUcCvrIONk=", "link"=>{"long_url"=>"http://rubylearning.com/satishtalim/getting_input.html"}, "commit"=>"Create Link"}
+Redirected to http://local.rubly.tld/links/4
+Completed 302 Found in 288ms
+
+
+Started GET "/links/4" for 127.0.1.1 at 2011-08-05 00:16:29 +0600
+  Processing by LinksController#show as HTML
+  Parameters: {"id"=>"4"}
+Rendered links/show.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 73ms (Views: 62.2ms | ActiveRecord: 114.7ms)
+
+
+Started GET "/QRm95" for 127.0.1.1 at 2011-08-05 00:16:37 +0600
+  Processing by LinksController#render_link as HTML
+  Parameters: {"slug"=>"QRm95"}
+Redirected to http://rubylearning.com/satishtalim/getting_input.html
+Completed 301 Moved Permanently in 139ms
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-23 11:38:04 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.1ms)
+Rendered links/new.html.erb within layouts/application (84.5ms)
+Completed 200 OK in 198ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 00:35:53 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (50.9ms)
+Completed 200 OK in 190ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 00:44:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 24ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:02:42 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.0ms)
+Rendered links/new.html.erb within layouts/application (74.2ms)
+Completed 200 OK in 183ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.1.1 at 2011-09-30 12:02:43 +0600
+
+ActionController::RoutingError (No route matches "/stylesheets/bootstrap.css"):
+  
+
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 12:02:43 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 12:02:46 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:03:56 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 35ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:03:57 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 54ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:04:04 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 34ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:04:35 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 24ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:05:04 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 27ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:06:18 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 23ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:27:40 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 73ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:32:55 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 23ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:34:49 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 53ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:43:14 +0600
+  Processing by LinksController#new as HTML
+Rendered links/new.html.erb within layouts/application (42.4ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (/var/www/works/rubyprojects/rubly/app/views/links/new.html.erb:13: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+...ppend= ( form.submit, :class => "btn primary" );@output_buff...
+...                               ^):
+    10:     </div>
+    11: 
+    12:     <div class="actions">
+    13:       <%= form.submit, :class => "btn primary" %>
+    14:     </div>
+    15: 
+    16: <% end %>
+  app/controllers/links_controller.rb:21:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:45:19 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 29ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:45:57 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 32ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:49:20 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 23ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:49:44 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 51ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:51:00 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 23ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:54:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 33ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 12:59:13 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.0ms)
+Rendered links/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 33ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:00:42 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 27ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:01:10 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 57ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:02:29 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 37ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:03:07 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:07:12 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 23ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:07:41 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 25ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:08:53 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 55ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:12:05 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:12:07 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 26ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:12:41 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 24ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:14:07 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.0ms)
+Rendered links/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 29ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:14:49 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 60ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links" for 127.0.1.1 at 2011-09-30 13:28:39 +0600
+  Processing by LinksController#index as HTML
+Redirected to http://local.rubly.tld/links/new
+Completed 302 Found in 0ms
+
+
+Started GET "/links/new" for 127.0.1.1 at 2011-09-30 13:28:39 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 25ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links/" for 127.0.1.1 at 2011-09-30 13:29:25 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13:       </tr>
+    14:       </thead>
+    15:       <tbody>
+    16:       <% @links.each do |link| %>
+    17:           <tr>
+    18:             <td><%= link.long_url %></td>
+    19:             <td><%= link.short_url %></td>
+  app/views/links/index.html.erb:16:in `_app_views_links_index_html_erb___818676061150116507_16118380__456734201038063546'
+
+
+
+Started GET "/links/" for 127.0.1.1 at 2011-09-30 13:33:16 +0600
+  Processing by LinksController#index as HTML
+Rendered links/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 145ms (Views: 34.6ms | ActiveRecord: 39.5ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:34:39 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (Missing partial links/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/var/www/works/rubyprojects/rubly/app/views"):
+    40:    <div class="hero-unit">
+    41:         <%= yield %>
+    42:    </div>
+    43:    <%= render 'index' %>
+    44:   <footer>
+    45:     <p>&copy; rbs 2011</p>
+    46:   </footer>
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_30002860__456734201038063546'
+  app/controllers/links_controller.rb:27:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:35:55 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (0.2ms)
+Rendered links/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 32ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:36:42 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13:       </tr>
+    14:       </thead>
+    15:       <tbody>
+    16:       <% @links.each do |link| %>
+    17:           <tr>
+    18:             <td><%= link.long_url %></td>
+    19:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:16:in `_app_views_links__links_html_erb__815411713617307246_30002980__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_16607520__456734201038063546'
+  app/controllers/links_controller.rb:27:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:37:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.7ms)
+Rendered links/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 27ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:37:45 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (4.1ms)
+Rendered links/new.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 59ms (Views: 48.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:39:30 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.8ms)
+Rendered links/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 36ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:56:01 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (37.4ms)
+Rendered links/new.html.erb within layouts/application (49.4ms)
+Completed 200 OK in 64ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 13:56:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.1ms)
+Rendered links/_links.html.erb (5.3ms)
+Rendered links/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 33ms (Views: 22.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:01:39 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (3.1ms)
+Rendered links/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 45ms (Views: 21.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:02:39 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 26ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:03:04 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.5ms)
+Rendered links/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 27ms (Views: 16.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:13:48 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 28ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:14:30 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.9ms)
+Rendered links/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 39ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:15:06 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 60ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:15:48 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.9ms)
+Rendered links/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 30ms (Views: 18.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:16:40 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 59ms (Views: 48.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:17:01 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.8ms)
+Rendered links/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 29ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:18:00 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.8ms)
+Rendered links/new.html.erb within layouts/application (62.6ms)
+Completed 200 OK in 78ms (Views: 67.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:20:48 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.9ms)
+Rendered links/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 26ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 14:21:37 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (2.4ms)
+Rendered links/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 26ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:11:27 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.9ms)
+Rendered links/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 27ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:11:29 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.9ms)
+Rendered links/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 33ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:11:39 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (4.3ms)
+Rendered links/_links.html.erb (0.9ms)
+Rendered links/new.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 195ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_25328740__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_25625560__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started GET "/links" for 127.0.1.1 at 2011-09-30 19:12:46 +0600
+  Processing by LinksController#index as HTML
+Redirected to http://local.rubly.tld/links/new
+Completed 302 Found in 0ms
+
+
+Started GET "/links/new" for 127.0.1.1 at 2011-09-30 19:12:46 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 55ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:13:50 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (2.1ms)
+Rendered links/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 30ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:13:58 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 67ms (Views: 52.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:14:19 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.0ms)
+Rendered links/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 34ms (Views: 21.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:17:03 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.1ms)
+Rendered links/_links.html.erb (4.0ms)
+Rendered links/new.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 80ms (Views: 66.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:22:05 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (1.8ms)
+Rendered links/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 27ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:22:09 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.6ms)
+Rendered links/new.html.erb within layouts/application (55.6ms)
+Completed 200 OK in 70ms (Views: 58.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:22:30 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.0ms)
+Rendered links/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 25ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:22:32 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.4ms)
+Rendered links/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 27ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:22:55 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Redirected to http://local.rubly.tld/links/5
+Completed 302 Found in 658ms
+
+
+Started GET "/links/5" for 127.0.1.1 at 2011-09-30 19:22:56 +0600
+  Processing by LinksController#show as HTML
+  Parameters: {"id"=>"5"}
+Rendered links/_links.html.erb (0.7ms)
+Rendered links/show.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_16874820__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24105660__456734201038063546'
+  app/controllers/links_controller.rb:11:in `show'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:25:54 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/_links.html.erb (0.8ms)
+Rendered links/new.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_25624620__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_25938960__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:26:22 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (32.1ms)
+Rendered links/_links.html.erb (0.8ms)
+Rendered links/new.html.erb within layouts/application (37.3ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_30006960__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_14303840__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:26:27 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_24861220__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_25271020__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:27:00 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.4ms)
+Rendered links/new.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 62ms (Views: 50.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:27:07 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/_links.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_24671280__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24899100__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:27:54 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 63ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:28:00 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_24414100__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24770700__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:28:27 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 61ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:28:32 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_24110740__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24480840__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:29:28 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_26271040__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_26988880__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:30:49 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (2.5ms)
+Rendered links/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 29ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:30:54 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/_links.html.erb (0.8ms)
+Rendered links/new.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_25953500__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_26375020__456734201038063546'
+  app/controllers/links_controller.rb:37:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:32:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:31:22 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (3.0ms)
+Rendered links/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 30ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:33:25 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.4ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_25644460__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_25962400__456734201038063546'
+  app/controllers/links_controller.rb:38:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:34:05 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.8ms)
+Rendered links/_links.html.erb (2.4ms)
+Rendered links/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 38ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:34:08 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/_links.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_25368040__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_25690860__456734201038063546'
+  app/controllers/links_controller.rb:39:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:34:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:34:56 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.5ms)
+Rendered links/new.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 62ms (Views: 48.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:35:00 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>"http://local.rubly.tld"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/_links.html.erb (2.2ms)
+Rendered links/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 34ms (Views: 10.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:54:40 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 58ms (Views: 45.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 19:54:40 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:55:14 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_24725700__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24958500__456734201038063546'
+  app/controllers/links_controller.rb:39:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 19:55:20 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:55:23 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 59ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 19:55:23 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:55:31 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (2.8ms)
+Rendered links/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 32ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:56:14 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 57ms (Views: 15.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 19:56:14 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:56:18 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.2ms)
+Rendered links/_links.html.erb (0.6ms)
+Rendered links/new.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_24253540__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24602280__456734201038063546'
+  app/controllers/links_controller.rb:39:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:56:24 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.8ms)
+Rendered links/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 64ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 19:56:24 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:56:56 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.8ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 31ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:57:55 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.1ms)
+Rendered links/_links.html.erb (0.7ms)
+Rendered links/new.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_26570060__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_27188700__456734201038063546'
+  app/controllers/links_controller.rb:39:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 19:58:00 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.3ms)
+Rendered links/_links.html.erb (0.8ms)
+Rendered links/new.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_17703180__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_19296880__456734201038063546'
+  app/controllers/links_controller.rb:39:in `block (2 levels) in create'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:59:11 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (0.8ms)
+Rendered links/new.html.erb within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_26023580__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_27116380__456734201038063546'
+  app/controllers/links_controller.rb:22:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:59:13 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (0.9ms)
+Rendered links/new.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:       </tr>
+    13:       </thead>
+    14:       <tbody>
+    15:       <% @links.each do |link| %>
+    16:           <tr>
+    17:             <td><%= link.long_url %></td>
+    18:             <td><%= link.short_url %></td>
+  app/views/links/_links.html.erb:15:in `_app_views_links__links_html_erb__815411713617307246_17822040__3025849780428359619'
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__4017680988047147855_24282460__456734201038063546'
+  app/controllers/links_controller.rb:22:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 19:59:59 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb (8.8ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:00:07 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/new.html.erb (9.0ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:00:19 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.8ms)
+Rendered links/new.html.erb (9.5ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:00:20 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb (8.6ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:00:21 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/new.html.erb (44.0ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:00:22 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb (8.6ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:00:24 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/new.html.erb (9.1ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:01:25 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (2.6ms)
+Rendered links/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 31ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:01:25 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:01:35 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}, "commit"=>"Shorten"}
+Rendered links/_message.html.erb (2.0ms)
+Rendered links/_links.html.erb (2.3ms)
+Rendered links/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 32ms (Views: 11.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:01:35 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:01:57 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}, "commit"=>"Shorten"}
+Redirected to http://local.rubly.tld/
+Completed 302 Found in 110ms
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:01:57 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (2.6ms)
+Rendered links/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 28ms (Views: 16.8ms | ActiveRecord: 86.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:01:57 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:02:08 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumderss.com"}, "commit"=>"Shorten"}
+Redirected to http://local.rubly.tld/
+Completed 302 Found in 83ms
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:02:09 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.2ms)
+Rendered links/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 29ms (Views: 16.6ms | ActiveRecord: 46.7ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:02:09 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:02:29 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (2.9ms)
+Rendered links/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 27ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:04:01 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.9ms)
+Rendered links/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 32ms (Views: 20.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:04:01 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:04:10 +0600
+  Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumdersss.com"}, "commit"=>"Shorten"}
+Redirected to http://local.rubly.tld/
+Completed 302 Found in 121ms
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:04:10 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 27ms (Views: 16.4ms | ActiveRecord: 98.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:04:10 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:04:41 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.2ms)
+Rendered links/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 29ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:05:27 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 32ms (Views: 18.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:05:30 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:06:05 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.9ms)
+Rendered links/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 32ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:06:05 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:06:06 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (41.1ms)
+Rendered links/new.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 69ms (Views: 55.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:06:06 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:06:08 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.8ms)
+Rendered links/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 30ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:06:08 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:06:09 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (3.7ms)
+Rendered links/new.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 66ms (Views: 53.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:06:09 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:06:10 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (6.0ms)
+Rendered links/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 43ms (Views: 27.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:06:10 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:07:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (3.9ms)
+Rendered links/new.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 68ms (Views: 53.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:07:27 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:08:43 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (4.0ms)
+Rendered links/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 37ms (Views: 21.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:08:44 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:08:54 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumderss.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 5.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:11:52 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 33ms (Views: 19.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:11:52 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:11:57 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.8ms)
+Completed 200 OK in 70ms (Views: 10.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:14:09 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 30ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:14:09 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:14:12 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.7ms)
+Completed 200 OK in 67ms (Views: 10.5ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:16:08 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (1.2ms)
+Completed 200 OK in 26ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:16:11 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (4.0ms)
+Rendered links/new.html.erb within layouts/application (48.1ms)
+Completed 200 OK in 63ms (Views: 50.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:16:11 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:16:14 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (2.2ms)
+Completed 200 OK in 41ms (Views: 9.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:30:22 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.8ms)
+Rendered links/_links.html.erb (3.7ms)
+Rendered links/new.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 70ms (Views: 54.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:30:22 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:30:26 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `gsub' for :notice:Symbol):
+    1: alert('<%= escape_javascript(:notice) %>')
+  app/views/links/create.js.erb:1:in `_app_views_links_create_js_erb___4315332236896025488_24617200__456734201038063546'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:30:35 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.6ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (undefined method `gsub' for :notice:Symbol):
+    1: alert('<%= escape_javascript(:notice) %>')
+  app/views/links/create.js.erb:1:in `_app_views_links_create_js_erb___4315332236896025488_27311620__456734201038063546'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:30:53 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 28ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:30:53 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:30:58 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:31:02 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 6.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:32:43 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.9ms)
+Rendered links/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 67ms (Views: 18.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:32:43 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:32:48 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}}
+Rendered links/create.js.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 5.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:32:49 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}}
+Rendered links/create.js.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 4.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:32:50 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 26ms (Views: 5.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:32:51 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}}
+Rendered links/create.js.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 4.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:32:52 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}}
+Rendered links/create.js.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 9.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:32:53 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumders.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 4.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:33:13 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.8ms)
+Rendered links/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 30ms (Views: 18.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:33:15 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:33:18 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:33:38 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (4.0ms)
+Rendered links/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 29ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:33:38 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:33:40 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (4.7ms)
+Rendered links/new.html.erb within layouts/application (52.5ms)
+Completed 200 OK in 68ms (Views: 56.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:33:40 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:33:42 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 30ms (Views: 19.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:33:42 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:33:48 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:33:51 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.3ms)
+Completed 200 OK in 27ms (Views: 5.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:34:17 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (3.9ms)
+Rendered links/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 62ms (Views: 50.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:34:17 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:34:22 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 5.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:37:37 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 65ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:37:37 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:37:41 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 30ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:39:04 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 165ms (Views: 25.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:39:05 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:39:17 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 127ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:39:21 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 127ms (Views: 1.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:39:23 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 115ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:39:52 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.1ms)
+Rendered links/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 111ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:39:53 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:39:56 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 72ms (Views: 1.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:39:59 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 141ms (Views: 1.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:40:02 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 128ms (Views: 1.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:40:03 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Completed 200 OK in 155ms (Views: 2.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:40:06 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.0ms)
+Rendered links/_links.html.erb (6.4ms)
+Rendered links/new.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 127ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:40:07 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:40:12 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumderss.com"}}
+Completed 200 OK in 67ms (Views: 1.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:40:14 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumderss.com"}}
+Completed 200 OK in 133ms (Views: 2.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:40:19 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumderss.com"}}
+Completed 200 OK in 119ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:41:05 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.3ms)
+Rendered links/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 107ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:41:06 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:41:08 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.7ms)
+Completed 500 Internal Server Error in 110ms
+
+ActionView::Template::Error (undefined method `gsub' for :notice:Symbol):
+    1: alert('<%= escape_javascript(:notice) %>');
+  app/views/links/create.js.erb:1:in `_app_views_links_create_js_erb___4315332236896025488_26380040__456734201038063546'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:41:35 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.1ms)
+Rendered links/_links.html.erb (4.2ms)
+Rendered links/new.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 38ms (Views: 26.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:41:35 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:41:41 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 5.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:42:25 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.3ms)
+Rendered links/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 26ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:42:25 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:42:29 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.6ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    1: alert('<%= escape_javascript(flash(:notice)) %>');
+  app/views/links/create.js.erb:1:in `_app_views_links_create_js_erb___4315332236896025488_26250240__456734201038063546'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 20:43:54 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.8ms)
+Rendered links/_links.html.erb (4.1ms)
+Rendered links/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 30ms (Views: 20.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 20:43:54 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:43:58 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/_message.html.erb (4.0ms)
+Rendered links/create.js.erb (6.0ms)
+Completed 200 OK in 37ms (Views: 14.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 20:44:13 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/_message.html.erb (2.2ms)
+Rendered links/create.js.erb (3.4ms)
+Completed 200 OK in 39ms (Views: 12.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:03:07 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 30ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:03:18 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 28ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:03:44 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.3ms)
+Rendered links/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 27ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:06:12 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.2ms)
+Rendered links/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:11:39 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 29ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:11:39 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:11:45 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 5.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:12:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.3ms)
+Rendered links/_links.html.erb (3.8ms)
+Rendered links/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 36ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:12:27 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:12:29 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 5.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:12:36 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:14:26 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 31ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:14:26 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:14:28 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (0.7ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined method `to_sym' for 0:Fixnum):
+    1: <% if @link.errors.any? %>
+    2:     $("#message-container").html('' +
+    3:             '<div class="alert-message error"><a class="close" href="#">x</a><p><%= @link.errors[0] %></p></div>')
+    4: <% else %>
+    5:     $("#message-container").html('' +
+    6:             '<div class="alert-message success"><a class="close" href="#">x</a><p>Url created successfully</p></div>')
+  app/views/links/create.js.erb:3:in `_app_views_links_create_js_erb___4315332236896025488_23882900__456734201038063546'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:15:17 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 29ms (Views: 17.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:15:17 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:15:20 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.4ms)
+Completed 200 OK in 30ms (Views: 6.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:15:33 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (1.5ms)
+Completed 200 OK in 58ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:15:52 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.9ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 36ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:15:52 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:15:54 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.4ms)
+Completed 200 OK in 56ms (Views: 6.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:16:30 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 28ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:16:30 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:16:33 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (2.7ms)
+Completed 200 OK in 64ms (Views: 12.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:16:49 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 38ms (Views: 21.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:16:49 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:16:51 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.8ms)
+Completed 200 OK in 73ms (Views: 9.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:17:16 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (4.2ms)
+Rendered links/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 30ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:17:16 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:17:18 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (0.6ms)
+Completed 200 OK in 64ms (Views: 5.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:17:36 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.3ms)
+Rendered links/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 34ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:17:36 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:17:38 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (0.6ms)
+Completed 200 OK in 57ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:19:39 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 28ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:19:40 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:19:41 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.4ms)
+Completed 200 OK in 64ms (Views: 10.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:21:36 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (4.1ms)
+Rendered links/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 30ms (Views: 18.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:21:36 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:21:39 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.6ms)
+Completed 200 OK in 67ms (Views: 10.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:22:15 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.8ms)
+Rendered links/new.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (index 0 outside of array bounds: 0...0):
+    1: <%= @link.errors.full_messages.fetch(0) %>
+    2: <% if @link.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@link.errors.count, "error") %> prohibited this link from being saved:</h2>
+  app/views/links/_message.html.erb:1:in `fetch'
+  app/views/links/_message.html.erb:1:in `_app_views_links__message_html_erb__4319485917721651133_24601140_2136643709222657151'
+  app/views/links/new.html.erb:9:in `block in _app_views_links_new_html_erb__548976871795940174_25201840__456734201038063546'
+  app/views/links/new.html.erb:8:in `_app_views_links_new_html_erb__548976871795940174_25201840__456734201038063546'
+  app/controllers/links_controller.rb:23:in `new'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:24:08 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.4ms)
+Rendered links/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 61ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:24:09 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:24:11 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.4ms)
+Completed 200 OK in 27ms (Views: 5.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:24:52 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.3ms)
+Rendered links/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 61ms (Views: 18.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:24:52 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:24:55 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (4.2ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (undefined method `gsub' for ["Long url can't be blank"]:Array):
+    1: alert("<%= @link.errors.full_messages %>");
+    2: <% if @link.errors.any? %>
+    3:     $("#message-container").html('' +
+    4:             '<div class="alert-message error"><a class="close" href="#">x</a><p><%= escape_javascript(@link.errors.full_messages) %></p></div>')
+    5: <% else %>
+    6:     $("#message-container").html('' +
+    7:             '<div class="alert-message success"><a class="close" href="#">x</a><p>Url created successfully</p></div>')
+  app/views/links/create.js.erb:4:in `_app_views_links_create_js_erb___4315332236896025488_24470340__456734201038063546'
+  app/controllers/links_controller.rb:33:in `create'
+
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:25:20 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 59ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:25:21 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:25:23 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (2.1ms)
+Completed 200 OK in 28ms (Views: 6.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:25:37 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumder.com"}}
+Rendered links/create.js.erb (2.8ms)
+Completed 200 OK in 59ms (Views: 7.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:26:19 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.5ms)
+Rendered links/_links.html.erb (3.2ms)
+Rendered links/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 27ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:26:23 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kNMsYkDtvHhFFI/hhXi//NAuom3UqaflOlXrVOwz90w=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (1.6ms)
+Completed 200 OK in 60ms (Views: 7.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:26:28 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.6ms)
+Rendered links/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 30ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:27:52 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.1ms)
+Rendered links/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 61ms (Views: 15.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:29:04 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.6ms)
+Rendered links/_links.html.erb (3.5ms)
+Rendered links/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 27ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:29:04 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:29:06 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>""}}
+Rendered links/create.js.erb (2.1ms)
+Completed 200 OK in 63ms (Views: 8.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:29:13 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazsumder.com"}}
+Rendered links/create.js.erb (1.6ms)
+Completed 200 OK in 179ms (Views: 13.0ms | ActiveRecord: 101.5ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:29:55 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (4.0ms)
+Rendered links/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 62ms (Views: 50.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:29:55 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:30:03 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajumazumdersssss.com"}}
+Rendered links/create.js.erb (0.7ms)
+Completed 200 OK in 107ms (Views: 7.3ms | ActiveRecord: 76.3ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:31:44 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (1.0ms)
+Rendered links/_links.html.erb (4.5ms)
+Rendered links/new.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 106ms (Views: 85.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:31:44 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:31:54 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://rajudmazumders.com"}}
+Rendered links/create.js.erb (1.1ms)
+Completed 200 OK in 82ms (Views: 11.2ms | ActiveRecord: 46.9ms)
+
+
+Started GET "/" for 127.0.1.1 at 2011-09-30 21:37:57 +0600
+  Processing by LinksController#new as HTML
+Rendered links/_message.html.erb (0.7ms)
+Rendered links/_links.html.erb (5.0ms)
+Rendered links/new.html.erb within layouts/application (50.4ms)
+Completed 200 OK in 68ms (Views: 53.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.1.1 at 2011-09-30 21:37:57 +0600
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+
+
+Started POST "/links" for 127.0.1.1 at 2011-09-30 21:38:06 +0600
+  Processing by LinksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ot0vbF2xhlRJ94OFO9eNavQj9yFRJV/8+m4+ocV58Rc=", "link"=>{"long_url"=>"http://erajumazumdersss.com"}}
+Rendered links/_link.html.erb (0.9ms)
+Rendered links/create.js.erb (2.6ms)
+Completed 200 OK in 103ms (Views: 10.3ms | ActiveRecord: 71.7ms)

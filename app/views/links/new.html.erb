@@ -1,12 +1,35 @@
-<%= form_for @link do |form| %>
-    <%= render 'message' %>
-    <div class="field">
-      <label>Paste your Long Url Here</label><br/>
-      <%= form.text_field :long_url %>
-    </div>
+<div class="row">
+    <div class="span10" id="message-container">
 
-    <div class="actions">
-      <%= form.submit %>
     </div>
+</div>
+<div class="row">
+  <div class="span10">
+    <%= form_for @link, :html => {:class => "form-stacked"} do |form| %>
+        <%= render 'message' %>
 
-<% end %>
+        <div class="clearfix">
+          <%= label_tag(:long_url, "Please Paste the long Url here") %>
+          <div class="input">
+            <%= form.text_field :long_url, :size => '30', :class => 'span8' %>
+            <span class="help-inline">
+              <%= form.submit "Shorten", :class => "btn primary" %>
+            </span>
+            <span class="help-block">
+              All rub.ly URLs and click analytics are public and can be shared by anyone.
+            </span>
+
+          </div>
+        </div>
+    <% end %>
+  </div>
+  <div class="span3">
+      <div class="clearfix">
+
+       <div class="input">
+          <label>&nbsp;</label>
+          <input type="text" size="10" name="result" id="result" class="span3" readonly="" value="http://rub.ly/...">
+        </div>
+      </div>
+  </div>
+</div>

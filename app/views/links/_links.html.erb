@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="span16">
+    <table class="zebra-striped" id="links">
+      <thead>
+      <tr>
+        <th width="55%">Long url</th>
+        <th width="20%">Short url</th>
+        <th width="10%">Ip address</th>
+        <th width="5%">Clicks</th>
+        <th width="10%"></th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <% @links.each do |link| %>
+          <tr>
+            <td><%= link.long_url %></td>
+            <td><%= link.short_url %></td>
+            <td><%= link.ip_address %></td>
+            <td><%= link.total_click %></td>
+            <td><%= link_to 'Details', link, :class => "btn primary" %></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
